@@ -69,13 +69,22 @@ public class Auteur {
     }
 
     /**
+    /**
      * renvoie le niveau de l'auteur pour un style donné
      * @param s
      * @return
      */
     public int niveauStyle(Style s){
-         //TODO
-        return -1;
+        switch (s) {
+            case COMÉDIE:
+                return this.getNiveauComedie();
+            case TRAGÉDIE:
+                return this.getNiveauTragedie();
+            case DRAME:
+                return this.getNiveauDrame();
+            default:
+                return -1;
+        }
     }
 
     /**
@@ -84,8 +93,16 @@ public class Auteur {
      * @return
      */
     public String citationStyle(Style s){
-        //TODO
-        return null;
+        switch (s) {
+            case COMÉDIE:
+                return this.getCitationComedie();
+            case TRAGÉDIE:
+                return this.getCitationTragedie();
+            case DRAME:
+                return this.getCitationDrame();
+            default:
+                return "Ce style est inconnu...";
+        }
     }
 
     @Override
