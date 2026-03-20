@@ -66,6 +66,8 @@ public class App
 
         Auteur aristophane = new Auteur("Aristophane", 5, citation_thesmophories, 100, citation_guêpes, 0, "");
 
+        System.out.println("Bienvenu.e.s aux Dionysies!!");
+
         System.out.println(aristophane);
         System.out.println(euripide);
         System.out.println(sophocle);
