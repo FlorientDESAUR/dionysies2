@@ -9,3 +9,9 @@ Q3)
 Q4) Rien n'est a commiter dans la copie de travail car tout est deja commiter comme le montre la commande "git status"
 
 Q5) La méthode TDD est une methode spécifique pour creer ou modifier un code
+
+Q8) A)  Tournoi<Auteur> - Class in dionysies                        Représente un tournoi de théâtre.
+    B)  getNom() - Method in class dionysies.Tournoi                Retourne le nom du tournoi
+    C)  Tournoi(String) - Constructor for class dionysies.Tournoi   Crée un tournoi avec le nom donné
+    D)  inscrire(Auteur) - Method in class dionysies.Tournoi        Inscrire un auteur au tournoi
+    E)  afficheParticipants() - Method in class dionysies.Tournoi   Affiche les participants au tournoi
