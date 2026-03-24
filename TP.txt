@@ -15,3 +15,5 @@ Q8) A)  Tournoi<Auteur> - Class in dionysies                        Représente 
     C)  Tournoi(String) - Constructor for class dionysies.Tournoi   Crée un tournoi avec le nom donné
     D)  inscrire(Auteur) - Method in class dionysies.Tournoi        Inscrire un auteur au tournoi
     E)  afficheParticipants() - Method in class dionysies.Tournoi   Affiche les participants au tournoi
+
+Q9) On doit rajouter "package tournoi;" au début du fichier
