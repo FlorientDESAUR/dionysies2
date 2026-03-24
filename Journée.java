@@ -1,3 +1,5 @@
+package tournoi;
+
 public class Journée {
     private Epreuve epreuveMatin;
     private Epreuve epreuveMidi;
