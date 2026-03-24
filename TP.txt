@@ -5,3 +5,5 @@ Q2) Le premier commit a été créé par Sophocle. Le premier test de la classe 
     J'ai utiliser la commande "git log --reverse"
 
 Q3) 
+
+Q4) Rien n'est a commiter dans la copie de travail car tout est deja commiter comme le montre la commande "git status"
