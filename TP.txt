@@ -1,2 +1,7 @@
 Q1) Il y a 2 branche dans ce depot et master est la branche courante
     J'ai utiliser la commande "git branch"
+
+Q2) Le premier commit a été créé par Sophocle. Le premier test de la classe Auteur a été creer le 20 mars 2026 a 16h 12min et 03sec
+    J'ai utiliser la commande "git log --reverse"
+
+Q3) 
